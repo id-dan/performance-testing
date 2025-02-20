@@ -1,0 +1,23 @@
+{
+  "name": "performance-testing",
+  "version": "1.0.0",
+  "description": "Examples tests by types of performance testing: * Load Testing - ./load_tests * Stress Testing - ./stress_tests * Endurance Testing - ./endurance_tests * Volume Testing - ./volume_tests * Scalability Testing - ./scalability_tests * Spike Testing - ./spike_tests",
+  "main": "index.js",
+  "scripts": {
+    "k6_test": "k6 run ./load_tests/simple_k6.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/id-dan/performance-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/id-dan/performance-testing/issues"
+  },
+  "homepage": "https://github.com/id-dan/performance-testing#readme",
+  "devDependencies": {
+    "@types/k6": "^0.57.1"
+  }
+}
